@@ -1,0 +1,79 @@
+.header, body {
+    background: url(../img/terceiraponte.png) no-repeat;
+    background-size: cover;
+}
+
+#ajusta-cor{
+    background: rgba(90, 87, 87, 0.694);
+}
+
+form{
+    text-align: center;
+    padding: 10px 10px 0 0;
+    display: block;
+    width: 40%;
+}
+
+.formulary-event{
+    background: rgba(0, 0, 0,0.5);
+    display: block;
+    text-align: center;
+    color: white;
+    padding: 15px 0px 15px 0px;
+}
+
+.formulary-event .title-form{
+    font-family: Segoe UI;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.formulary-event .subtitle-form{
+    margin-top: 15px;
+    font-family: Segoe UI;
+    font-size: 16px;
+}
+
+button{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 10px;
+    background-color: #f0753c;
+    border-radius: 10px;
+    font-family: Segoe UI;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+#formulario{
+    margin-left: 30%;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.field{
+    margin-bottom: 16px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.field label{
+    display: block;
+    font-family: Segoe UI;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.field .input-padrao{
+    font-family: Segoe UI;
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+}
+

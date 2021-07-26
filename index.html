@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>CapacitaConf</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/about.css">
+        <link rel="stylesheet" href="css/speakers.css">
+        <link rel="stylesheet" href="css/formulary.css">
+    </head>
+
+    <body>
+        <header class="header">
+            <nav class="main-menu">
+                <ul>
+                    <li class="main-item"><a href="#event-conf">INFORMAÇÕES</a></li>
+                    <li class="main-item"><a href="#theSpeakers">PALESTRANTES</a></li>
+                </ul>
+            </nav>
+
+            <div class="jumbotron">
+                <section class="panel-main">
+                    <h1 class="title">CAPACITACONF</h1>
+                    <h2 class="subtitle">30°FEV | OLD VILLAGE</h2>
+                </section>
+                <section class="panel-subscribe">
+                    <a class="button" href="#formulario">Inscreva-se</a>
+                </section>
+            </div>
+        </header>
+
+        <section id="event-conf" class="panel panel-about">
+            <div class="dark-title">
+                <h2 class="title">BRAINSTORMING: ALL THE FRONT AND ALL THE BACK</h2>
+                <h3 class="subtitle">30 DE FEVEREIRO DE 2021 - OLD VILLAGE / SAINT ESPIRIT</h3>
+            </div>
+
+            <div class="about-description">
+                <p>Venha conhecer as maiores feras na área do Front End e de Back End do Brasil, apresentando suas cases de sucesso como Aparecida Nutri, Projeto Barbearia, Gallows e muitos outros grandes projetos que foram referência tanto no mercado brasileiro como no mundial. No CapacitaConf você poderá aprender as boas práticas da programação HTML, CSS, Javascript e Less, criando programas para otimizar seu négocio, com todo o conceito de designe UX presente no mercado e promovendo páginas totalmente responsivas.</p>
+                </br>
+                <p>Se você está cansado de montar visualizações no Canvas ou no Paint do computador, e quer surpreender seus clientes? Seu lugar é aqui!</p>
+            </div>
+        </section>
+
+        <section id="theSpeakers" class="panel panel-speakers">
+            <div class="about-speakers">
+                <h2 class="title">PALESTRANTES</h2>
+                <h3 class="subtitle">Venha aprender com essas feras do mercado que foram convidadas para nossa conferência.</h3>
+            </div>
+
+            <ul class="speakers">
+                <li class="speaker">
+                    <figure class="speaker-portrait">
+                        <img class="speaker-image"src="img/palestrantes/be.jfif" alt="">
+                        <figcaption class="speaker-name">Gaviorn Brun</figcaption>
+                        <p class="speaker-bio">Desenvolvedor BackEnd</p>
+                    </figure>
+                    <p class="speaker-speach">"Acho que esse comando vai dar certo", eis que... surgiu a internet!</p>
+                </li>
+
+                <li class="speaker">
+                    <figure class="speaker-portrait">
+                        <img class="speaker-image"src="img/palestrantes/fe.PNG" alt="">
+                        <figcaption class="speaker-name">Chico Francis</figcaption>
+                        <p class="speaker-bio">Devesenvolvedor FrontEnd</p>
+                    </figure>
+                    <p class="speaker-speach">Primeiro que eu quero, segundo que eu posso e terceiro por motivos de não sou obrigado.</p>
+                </li>
+
+                <li class="speaker">
+                    <figure class="speaker-portrait">
+                        <img class="speaker-image"src="img/palestrantes/ux.png" alt="">
+                        <figcaption class="speaker-name">Berthioga Palom</figcaption>
+                        <p class="speaker-bio">UX Designer</p>
+                    </figure>
+                    <p class="speaker-speach">Um usuário com site responsivo e um bom chocolate para testar, tá tudo certo.</p>
+                </li>
+
+                <li class="speaker">
+                    <figure class="speaker-portrait">
+                        <img class="speaker-image"src="img/palestrantes/pm.jfif" alt="">
+                        <figcaption class="speaker-name">Jhon Natan</figcaption>
+                        <p class="speaker-bio">Product Manager</p>
+                    </figure>
+                    <p class="speaker-speach">"A melhor estratégia, é não ter estratégia." - CS, Rambo</p>
+                </li>
+
+                <li class="speaker">
+                    <figure class="speaker-portrait">
+                        <img class="speaker-image"src="img/palestrantes/po.jpg" alt="">
+                        <figcaption class="speaker-name">Dávila Cas</figcaption>
+                        <p class="speaker-bio">Product Owner</p>
+                    </figure>
+                    <p class="speaker-speach">Testes são um disperdício de tempo, se o código compilar, é o suficiente. Quem testa é o usuário em produção, bobo...</p>
+                </li>
+            </ul>
+        
+        </section>
+
+        </br></br></br></br>
+
+        <section id="formulary">
+
+            <div class="formulary-event">
+                <h2 class="title-form">CADASTRO PARA CONFERÊNCIA</h2>
+                <h3 class="subtitle-form">Informe os dados no formulário abaixo para podermos efetivar sua inscrição.</h3>
+            </div>
+            <div id="ajusta-cor">
+                <form id="formulario">
+                    <div class="field">
+                        <label>Nome do Participante</label>
+                        <input type="text" id="nome" class="input-padrao" required>
+                    </div>
+    
+                    <div class="field">
+                        <label>CPF ou RG</label>
+                        <input type="text" id="cpfOuRg" class="input-padrao" required>
+                    </div>
+    
+                    <div class="field">
+                        <label>E-mail</label>
+                        <input type="text" id="email" class="input-padrao" required placeholder="seuemail@dominicio.com">
+                    </div>
+    
+                    <div class="field">
+                    <label>Telefone</label>
+                    <input type="text" id="telefone" class="input-padrao" required placeholder="(xx)xxxxx-xxxx">
+                    </div>
+    
+                    <button class="button">REALIZAR INSCRIÇÃO</button>
+                </form>
+
+            </div>
+           
+
+        </section>
+
+        <script>src="js/jquery.js"</script>
+        <script>src="js/index.js"</script>
+
+        <footer>
+			<p class="copyright">&copy; Copyright Conferência CapacitaAutoglass - 2021</p>
+        </footer>
+
+    </body>
+
+</html>

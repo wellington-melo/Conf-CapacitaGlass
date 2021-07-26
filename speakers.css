@@ -1,0 +1,67 @@
+.panel-speakers .about-speakers{
+    background: rgba(0, 0, 0,0.5);
+    margin-top: 70px;
+}
+
+.panel-speakers{
+    font-family: Segoe UI;
+    background: rgba(90, 87, 87, 0.694);
+}
+
+.panel-speakers .title{
+    padding: 12px 0 0 0;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.panel-speakers .subtitle{
+padding: 10px 0 12px 0;
+font-size: 30x;
+text-align: center;
+color: white;
+}
+
+.panel-speakers .speakers{
+    text-align: center;
+}
+
+.panel-speakers .speaker{
+    display: inline-block;
+    margin: 25px 16px 25px 0;
+    padding: 18px;
+    border-radius: 10px;
+    vertical-align: top;
+    width: 220px;
+    height: 330px;
+    max-width: 200;
+    background-color: white;
+}
+
+.panel-speakers .speaker-image {
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
+}
+
+.panel-speakers .speaker-name {
+    font-family: Segoe UI;
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 12px;
+}
+
+.panel-speakers .speaker-bio {
+    font-family: Segoe UI;
+    margin-top: 10px;
+}
+
+.panel-speakers .speaker-speach {
+    font-family: Segoe UI; 
+    margin-top: 16px;
+    padding-top: 8px;
+    font-size: 16px;
+    text-align: justify;
+}

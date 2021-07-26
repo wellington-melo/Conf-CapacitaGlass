@@ -1,0 +1,84 @@
+.header {
+    background: url(../img/terceiraponte.png) no-repeat;
+    background-size: cover;
+    padding-top: 32px;
+}
+
+footer {
+	text-align: center;
+    padding: 5px 0 20px 0;
+    font-family: Segoe UI;
+    font-size: 16px;
+    color: white;
+}
+
+.header .main-menu{
+    text-align: center;
+}
+
+.header .main-menu .main-item{
+    display: inline-block;
+    margin: 0 2px 32px 0;
+}
+
+.header .main-menu .main-item a{
+    font-family: Segoe UI;
+    font-weight: bold;
+    color: white;
+    padding: 16px;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    transition: background-color 0.5s;
+}
+
+.header .main-menu .main-item a:hover{
+    background-color: #48A3A6;
+}
+
+.header .jumbotron{
+    text-align: center;
+    padding: 0 0 44px 0;
+    text-transform: uppercase;
+}
+
+.header .panel-main{
+    color: white;
+    text-shadow: 4px 4px 10px black;
+}
+
+.header .panel-main .title{
+    font-size: 3em;
+    font-family: Segoe UI;
+    font-weight: bold;
+}
+
+.header .panel-main .subtitle{
+    font-size: 2.5em;
+    font-family: Segoe UI;
+    color: #f0753c;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.header .jumbotron .button{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 20px 30px;
+    background-color: #f0753c;
+    border-radius: 10px;
+    font-family: Segoe UI;
+    font-weight: bold;
+}
+
+.header .jumbotron .panel-subscribe{
+    margin-top: 28px;
+}
+
+@media(min-width: 650 px){
+    .header .jumbotron {
+        font-size: 40px;
+    }
+}
